@@ -22,6 +22,7 @@ class Config:
 app=Flask(__name__)
 
 app.config.from_object(Config)
+
 Bootstrap5(app)
 
 class Base(DeclarativeBase):
@@ -36,6 +37,7 @@ login_manager.init_app(app)
 @login_manager.user_loader
 def load_user(user_id):
     return db.get_or_404(User, user_id)
+
 
 
 class User(UserMixin, db.Model):

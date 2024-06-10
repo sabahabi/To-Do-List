@@ -1,157 +1,157 @@
-body {
-  background-image: url('/static/assets/bg2.png');
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  /* Ensure the image covers the entire container */
-  background-repeat: no-repeat;
-  /* Prevent the image from repeating */
+ body {
+   background-image: url('/static/assets/bg2.png');
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   /* Ensure the image covers the entire container */
+   background-repeat: no-repeat;
+   /* Prevent the image from repeating */
 
-}
-
-
-.styled-list {
-  padding: 10px;
-  /* Add some padding inside the border */
-  max-width: 800px;
-  /* Limit the width of the list */
-  margin: 0 auto;
-  /* Center the list horizontally */
-  margin-top: 150px;
-}
-
-.styled-list .list-group-item {
-  padding: 10px;
-  /* Add some padding to each checkbox item */
-}
-
-.styled-list .list-group-item:nth-child(odd) {
-  background-color: #f0f0f0;
-  /* Set a different background color for odd items */
-}
-
-.styled-list .list-group-item:hover {
-  background-color: #d0d0d0;
-  /* Change background color on hover */
-}
-
-.styled-list .list-group-heading {
-  display: flex;
-  color: white;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #a79d44;
-  /* Background color for the heading row */
-  font-weight: bold;
-  /* Bold font for the heading */
-}
-
-.styled-list .list-group-heading a {
-  text-decoration: none;
-  /* Remove underline from the link */
-  color: inherit;
-  /* Inherit the color of the parent */
-}
-
-.action-links {
-  display: flex;
-  gap: 5px;
-}
-
-.action-links a {
-  text-decoration: none;
-  color: black;
-  font-size: 14px;
-}
-
-.action-links a:hover {
-  color: red;
-}
-
-.item-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.item-text {
-  flex-grow: 1;
-}
-
-.add {
-  font-weight: 100px;
-}
-
-.styled-list .list-group-items {
-  padding: 10px;
-  /* Add some padding to each checkbox item */
-}
+ }
 
 
+ .styled-list {
+   padding: 10px;
+   /* Add some padding inside the border */
+   max-width: 800px;
+   /* Limit the width of the list */
+   margin: 0 auto;
+   /* Center the list horizontally */
+   margin-top: 150px;
+ }
 
-.form-signin {
-  max-width: 330px;
-  padding: 1rem;
-}
+ .styled-list .list-group-item {
+   padding: 10px;
+   /* Add some padding to each checkbox item */
+ }
 
-.form-signin .form-floating:focus-within {
-  z-index: 2;
-}
+ .styled-list .list-group-item:nth-child(odd) {
+   background-color: #f0f0f0;
+   /* Set a different background color for odd items */
+ }
 
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
+ .styled-list .list-group-item:hover {
+   background-color: #d0d0d0;
+   /* Change background color on hover */
+ }
 
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
+ .styled-list .list-group-heading {
+   display: flex;
+   color: white;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   background-color: #a79d44;
+   /* Background color for the heading row */
+   font-weight: bold;
+   /* Bold font for the heading */
+ }
 
-.box {
-  color: red;
-}
+ .styled-list .list-group-heading a {
+   text-decoration: none;
+   /* Remove underline from the link */
+   color: inherit;
+   /* Inherit the color of the parent */
+ }
+
+ .action-links {
+   display: flex;
+   gap: 5px;
+ }
+
+ .action-links a {
+   text-decoration: none;
+   color: black;
+   font-size: 14px;
+ }
+
+ .action-links a:hover {
+   color: red;
+ }
+
+ .item-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+ }
+
+ .item-text {
+   flex-grow: 1;
+ }
+
+ .add {
+   font-weight: 100px;
+ }
+
+ .styled-list .list-group-items {
+   padding: 10px;
+   /* Add some padding to each checkbox item */
+ }
 
 
 
-/* Color of the navbar BEFORE scroll */
-.navbar-scroll {
-  background-color: #9c7e2a;
-}
+ .form-signin {
+   max-width: 330px;
+   padding: 1rem;
+ }
 
-.nav-link:hover {
-  color: #e6dacb;
-}
+ .form-signin .form-floating:focus-within {
+   z-index: 2;
+ }
 
-.nav-link {
-  color: #fff;
-  margin-right: 20px;
-  font-size: medium;
+ .form-signin input[type="email"] {
+   margin-bottom: -1px;
+   border-bottom-right-radius: 0;
+   border-bottom-left-radius: 0;
+ }
 
-}
+ .form-signin input[type="password"] {
+   margin-bottom: 10px;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+ }
 
-.navbar-brand {
-  font-size: unset;
-  height: 3.5rem;
-}
+ .box {
+   color: red;
+ }
 
-.tiny5-regular {
-  font-family: "Tiny5", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  font-size: xx-large;
-  color: #f0f0f0 !important;
-  ;
-}
 
-.dancing-script {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-}
+
+ /* Color of the navbar BEFORE scroll */
+ .navbar-scroll {
+   background-color: #9c7e2a;
+ }
+
+ .nav-link:hover {
+   color: #e6dacb;
+ }
+
+ .nav-link {
+   color: #fff;
+   margin-right: 20px;
+   font-size: medium;
+
+ }
+
+ .navbar-brand {
+   font-size: unset;
+   height: 3.5rem;
+ }
+
+ .tiny5-regular {
+   font-family: "Tiny5", sans-serif;
+   font-weight: 800;
+   font-style: normal;
+   font-size: xx-large;
+   color: #f0f0f0 !important;
+   ;
+ }
+
+ .dancing-script {
+   font-family: "Dancing Script", cursive;
+   font-optical-sizing: auto;
+   font-weight: 800;
+   font-style: normal;
+ }
